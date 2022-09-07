@@ -1,0 +1,118 @@
+<div class="navbar_full">
+
+    <div class="top_navbar">
+
+        <img src="../../assets/img/whatsapp_icon.png" class="navbar_icon">
+        <img src="../../assets/img/facebook_icon.png" class="navbar_icon">
+        <img src="../../assets/img/instagram_icon.png" class="navbar_icon">
+        <img src="../../assets/img/telegram_icon.png" class="navbar_icon">
+
+        <div id="phone_number">+994 50 250 07 01</div>
+        <div id="mail">uniser.education@uniser.az</div>
+        <div id="uniser"><img src="../../assets/img/uniseredu 1.png" alt=""></div>
+        <input id="search" type="text" placeholder="Search">
+        <div id="language">AZ                 <img src="../../assets/img/dropdown.png" class="dropdown_icon" alt=""></div>
+        <div id="daxil_ol">Daxil ol </div>
+        <img src="../../assets/img/user.png" class="user" alt="">
+
+    </div>
+    <hr>
+        <div class="navbar">
+            <div class="navbar_item" id="ana_sehife"><a routerLink="/"> ANA SƏHİFƏ</a></div>
+            <div class="navbar_item" id="haqqimizda"><a routerLink="/haqqimizda">HAQQIMIZDA</a></div>
+            <div class="navbar_item" id="xeberler"><a routerLink="/xeberler">XƏBƏRLƏR </a></div>
+            <div class="navbar_item"><a href="#">UĞURLARIMIZ</a></div>
+            <div class="navbar_item"><a href="#"> NƏŞRLƏRİMİZ</a></div>
+            <div class="navbar_item"><a href="#">LAYİHƏLƏR</a></div>
+
+            <!-- <button id="imtahan-btn"></button> -->
+            <div class="navbar_item sub-btn"><a href="#">İMTAHANLARIMIZ <img src="../../assets/img/dropdown.png" class="dropdown_icon" alt=""> </a>
+            <ul class="sub-menu">
+                <li class="sub-item more"><a class="more-btn" href="#">İmtahan tarixləri <img src="../../assets/img/dropdown.png" class="dropdown_icon" alt=""></a>
+                    <ul class="more-menu">
+                        <li class="more-item"> <a href="#">İbtidai</a></li>
+                        <li class="more-item"> <a href="#">Təkmilləşdirmə</a></li>
+                        <li class="more-item"> <a href="#">Buraxılış</a></li>
+                        <li class="more-item"> <a href="#">Blok</a></li>
+                        <li class="more-item"> <a href="#">MİQ/Sertifikasiya</a></li>
+                    </ul>
+                    </li>
+                <li class="sub-item"><a href="#">İmtahan mövzuları</a></li>
+
+                <li class="sub-item more"><a class="more-btn" href="#">Online sınaq <img src="../../assets/img/dropdown.png" class="dropdown_icon" alt=""></a>
+                    <ul class="more-menu">
+                        <li class="more-item"> <a href="#">Ödənişsiz</a></li>
+                        <li class="more-item"> <a href="#">Vip</a></li>
+                    </ul>
+                    </li>
+
+                <li class="sub-item"><a href="#">İmtahan nəticələri</a></li>
+
+                </ul>
+
+            </div>
+            <div class="navbar_item"><a href="#"> VAKANSİYA</a></div>
+        </div>
+
+
+        </div>
+                <!-- navbar responsive starts -->
+                <div class="responsive_nav">
+
+                  <div class="responsive_nav_top">
+                      <div id="uniser"><img src="../../assets/img/uniseredu 1.png" alt=""></div>
+
+                 <div class="div">
+                  <button (click)="showSecret = !showSecret" class="icon" id="toggle">
+                      <img src="../../assets/img/burger_menu.png" class="burger_menu">
+                  </button>
+                 </div>
+              </div>
+                       <hr>
+              <div *ngIf="showSecret" class="responsive_navbar" id="responsive_nav_btn">
+                  <div id="daxil_ol_language">
+                      <div id="language">AZ <img src="../../assets/img/dropdown.png" class="dropdown_icon" alt=""></div>
+                    <div id="daxil_ol">Daxil ol </div> 
+                </div>
+
+                <div class="navbar_item" id="ana_sehife"><a routerLink="/"> ANA SƏHİFƏ</a></div>
+                <div class="navbar_item" id="haqqimizda"><a routerLink="/haqqimizda">HAQQIMIZDA</a></div>
+                <div class="navbar_item" id="xeberler"><a routerLink="/xeberler">XƏBƏRLƏR </a></div>
+                  <div class="navbar_item"><a href="#">UĞURLARIMIZ</a></div>
+                  <div class="navbar_item"><a href="#"> NƏŞRLƏRİMİZ</a></div>
+                  <div class="navbar_item"><a href="#">LAYİHƏLƏR</a></div>
+
+                  <div class="navbar_item sub-btn responsive-sub-btn"><a href="#">İMTAHANLARIMIZ <img src="../../assets/img/dropdown.png" class="dropdown_icon" alt=""></a>
+                  <ul class="sub-menu">
+                      <li class="sub-item   more">
+                          <a class="more-btn" href="#">İmtahan tarixləri <img src="../../assets/img/dropdown.png" class="dropdown_icon" alt=""></a>
+                          <ul class="more-menu">
+                              <li class="more-item responsive-sub-item"> <a href="#">İbtidai</a></li>
+                              <li class="more-item responsive-sub-item"> <a href="#">Təkmilləşdirmə</a></li>
+                              <li class="more-item responsive-sub-item"> <a href="#">Buraxılış</a></li>
+                              <li class="more-item responsive-sub-item"> <a href="#">Blok</a></li>
+                              <li class="more-item responsive-sub-item"> <a href="#">MİQ/Sertifikasiya</a></li>
+                          </ul>
+                          </li>
+                      <li class="sub-item"><a href="#">İmtahan mövzuları</a></li>
+
+                      <li class="sub-item more"><a class="more-btn" href="#">Online sınaq <img src="../../assets/img/dropdown.png" class="dropdown_icon" alt=""></a>
+                          <ul class="more-menu">
+                              <li class="more-item"> <a href="#">Ödənişsiz</a></li>
+                              <li class="more-item"> <a href="#">Vip</a></li>
+                          </ul>
+                          </li>
+
+                      <li class="sub-item"><a href="#">İmtahan nəticələri</a></li>
+
+                      </ul>
+
+                  </div>
+                  <div class="navbar_item"><a href="#">VAKANSİYA</a></div>
+              </div>
+                  </div>
+
+
+              <!-- navbar responsive ends -->
+
+

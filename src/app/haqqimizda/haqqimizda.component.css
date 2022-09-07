@@ -1,0 +1,192 @@
+#group{
+    width: 101%;
+    margin-top: 30px;
+    margin-left: -8px;
+  }
+  #info1{
+      justify-content: center;
+      margin-left: 255px;
+      margin-right: 275px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+  #info2{
+      text-align: center;
+      justify-content: center;
+      margin-top: 24px;
+      margin-left: 255px;
+      margin-right:295px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+      
+  }
+  .komanda{
+      margin-top: 50px;
+  }
+  #komanda_uzv {
+      margin-bottom: 70px;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+  .team_img{
+      margin-top:25px;
+      margin-left: 70px;
+      width: 240px;
+      height: 240px;
+  }
+  .ad_soyad{
+  font-family: 'Roboto-Medium';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  margin-left: 140px;
+  }
+  .vezife{
+  margin-left: 150px;
+  font-family: 'Roboto-Medium';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  }
+  .team{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  /* elaqe starts */
+  .elaqe {
+    margin-top: 100px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto' , 'Times New Roman', Times, serif;
+  }
+  .elaqe1{
+    display: flex;
+    flex-direction: column;
+  }
+  #uniser3{
+    margin-top: 25px;
+    width: 115px;
+    height: 64px;
+  }
+/* elaqe starts */
+.elaqe {
+    margin-top: 100px;
+    width: 95%;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto' , 'Times New Roman', Times, serif;
+  }
+  .elaqe1{
+    display: flex;
+    flex-direction: column;
+  }
+  #uniser{
+    margin-left: 50px;
+  }
+  #elaqe_header{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+  
+  }
+  .elaqe_icon{
+    color: #2F89B6;
+    margin-right: 20px;
+  }
+  .navbar_icon {
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+   margin-left: 10px;
+   cursor: pointer;
+  }
+  .navbar_icon:hover{
+  
+    transform: translateY(-2px);
+  }
+  .elaqe_icon1{
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  .elaqe_icon2{
+    margin-top: 25px;
+    margin-left: 15px;
+  }
+  .map{
+    margin-left: 650px;
+    margin-top: -250px;
+    width: 600px;
+    height: 300px;
+    border: 0px;
+    border-radius: 5%;
+    position: relative;
+    
+    /* margin-top: 690px;
+    margin-left: 800px;
+    width: 600px;
+    height: 350px;
+    position: absolute; */
+  }
+   /* elaqe ends */
+  
+  
+  
+  
+  
+
+
+   @media only screen and (max-width: 1000px) {
+
+
+    #info1 {
+      margin: 0;
+      margin-top: 10px;
+      text-align: center;
+    }
+    #info2 {
+      margin: 0;
+      margin-top: 25px;
+      text-align: center;
+    } 
+       /* elaqe starts */
+  
+       .elaqe{
+        background-image: none;
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+      }
+      .elaqe1{
+        width: 100%;
+      }
+      .elaqe2 {
+        width: 100%;
+      }
+      .map{
+        position: relative;
+        margin: 0;
+        margin-top: 40px;
+        margin-left: 20px;
+        width: 300px;
+        height: 190px;
+      }
+      /* elaqe ends */
+    }

@@ -1,0 +1,337 @@
+body{
+    font-family:'Roboto-Medium',Helvetica , 'Times New Roman', Times, serif ;
+  }
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
+  /* navbar starts */
+  .top_navbar{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+  }
+  .navbar_icon {
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+   margin-left: 10px;
+   cursor: pointer;
+  }
+  .navbar_icon:hover{
+  
+    transform: translateY(-2px);
+  }
+  .fa-facebook-f{
+    padding: 10px 12px;
+  }
+ 
+  #phone_number{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: inline;
+  margin-left: 25px;
+  }
+  
+  #mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: inline;
+  margin-left: 25px;
+  }
+  #uniser{
+    display: inline;
+    margin-left: 50px;
+  }
+  #search {
+    margin-left: 110px;
+    border: 1px solid #C6E2EB;
+    border-radius: 24px;
+    padding: 4px 12px;
+    width: 190px;
+    height: 48px;
+    display: inline;
+  }
+  #language{
+    display: inline;
+    margin-left: 40px ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .language-angle-down{
+  cursor: pointer;
+  }
+  
+  #daxil_ol{
+    display: inline;
+    margin-left:45px;
+    cursor: pointer;
+  }
+  .fa-user{
+  margin-left: 10px ;
+  background: #DCEEF3;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  }
+  
+  .navbar {
+    color: #222222;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+  .navbar_item{
+    margin-left: 35px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  #ana_sehife{
+    margin-left: 40px;
+    display: inline-block;
+  }
+  #xeberler{
+  font-weight: 900;
+  }
+  
+  .navbar_item > a {
+  text-decoration: none;
+  }
+  .navbar_item {
+  transition: 0.3s;
+  }
+  
+  .navbar_item .sub-menu{
+  border-radius: 16px;
+  position: absolute;
+  background:white;
+  font-weight: 400;
+  font-size: 16px;
+  top: 74px;
+  line-height: 40px;
+  list-style: none;
+  pointer-events: none;
+  transform: translateY(20px);
+  margin-top: 83px;
+  margin-left: -10px;
+  padding: 0px;
+  opacity: 0;
+  }
+  .navbar_item:hover .sub-menu{
+  pointer-events: all;
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.3s;
+  }
+  .navbar_item .sub-menu .sub-item {
+  position: relative;
+  padding:7px 0;
+  
+  } 
+  .navbar_item .sub-menu .sub-item a{
+  text-decoration: none;
+  padding: 15px 30px;
+  }
+  .navbar_item .sub-menu .sub-item:hover{
+  background: #4080ef;
+  }
+  .navbar_item .sub-menu .sub-item:last-child:hover{
+  border-radius: 0 0 8px 8px;
+  }
+  .fa-angle-down{
+  margin-left: 10px;
+  opacity: 50%;
+  }
+  
+  .fa-angle-right{
+  margin-left: 25px;
+  opacity: 50%;
+  }
+  .more .more-menu{
+  background:#fff;
+  position: absolute;
+  list-style: none;
+  top: 0 ;
+  left: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  pointer-events: none;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s;
+  transition-property: transform, opacity;
+  padding: 0px;
+  border-radius: 16px;
+  }
+  
+  .more:hover .more-menu{
+  pointer-events: all;
+  transform: translateY(0);
+  opacity: 1;
+  }
+  .more .more-menu .more-item{
+  padding: 0px;
+  }
+  .more .more-menu .more-item:hover{
+  background: #4080ef;
+  }
+  /* navbar ends  */
+  
+    #group {
+      width: 101%;
+      margin-top: 30px;
+      margin-left: -8px;
+    }
+    /* xeberler starts */
+  
+  
+  .team{    
+      margin-top: 50px;
+     display:flex;
+     flex-flow:row;
+     flex-wrap: wrap;
+     width: 100%;
+     justify-content: space-around;
+     margin-left: 8px;
+  }
+  .team1{
+      width: 30%;
+  }
+  
+  .team_img{
+  margin-top:25px;
+  width: 75%;
+  display: inline;
+  }
+  .xeber_basliq{
+      font-family: Helvetica;
+      font-size: 16px;
+      width: 75%;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+  .xeber_basliq_alt{
+  /* margin-left: 100px; */
+  width: 75%;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  }
+  
+  /* elaqe starts */
+.elaqe {
+    margin-top: 100px;
+    width: 95%;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto' , 'Times New Roman', Times, serif;
+  }
+  .elaqe1{
+    display: flex;
+    flex-direction: column;
+  }
+  #uniser{
+    margin-left: 50px;
+  }
+  #elaqe_header{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+  
+  }
+  .elaqe_icon{
+    color: #2F89B6;
+    margin-right: 20px;
+  }
+
+  .elaqe_icon1{
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  .elaqe_icon2{
+    margin-top: 25px;
+    margin-left: 15px;
+  }
+  #uniser3{
+    margin-top: 25px;
+    width: 115px;
+    height: 64px;
+  }
+  .map{
+    margin-left: 550px;
+    margin-top: -290px;
+    width: 600px;
+    height: 300px;
+    border: 0px;
+    border-radius: 5%;
+    position: relative;
+    
+    /* margin-top: 690px;
+    margin-left: 800px;
+    width: 600px;
+    height: 350px;
+    position: absolute; */
+  }
+   /* elaqe ends */
+  
+  
+     /* Responsive Navbar starts */
+  
+     .responsive_nav {
+      display: none;
+    }
+  
+  
+     @media only screen and (max-width: 1000px) {
+  
+      
+  
+     .fa-message {
+       cursor: pointer ;
+       color: #D9D9D9;
+     }
+  
+  
+     .team1 {
+      width: 50%;
+  }
+  
+  
+     /* elaqe ends */
+  
+     .elaqe{
+       width: 100%;
+       margin-top: 50px;
+       display: flex;
+       flex-direction: column;
+     }
+     .elaqe1{
+       width: 100%;
+     }
+     .elaqe2 {
+       width: 100%;
+     }
+     .map{
+      position: relative;
+      margin: 0;
+      margin-top: 40px;
+      margin-left: 20px;
+      width: 300px;
+      height: 190px;
+    }
+     /* elaqe ends */
+  
+
+   
+  }
